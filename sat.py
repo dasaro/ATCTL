@@ -241,8 +241,6 @@ if __name__=="__main__":
     #
     # * = done
 
-    print(sat_agent("M",epsilon["phi"],next=True))
-
     s = sat(epsilon)
     
     print("*****")
